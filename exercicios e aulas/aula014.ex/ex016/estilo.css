@@ -1,0 +1,64 @@
+body{
+    background: rgba(33, 33, 160, 0.788);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+div#cont{
+    text-align: center;
+}
+div#a{
+    font-size: 0.7em ;
+}
+div#cont > p > input{
+    margin: 1px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    border-color: black;
+}
+div#cont > p{
+    margin: 10px;
+}
+p#contar{
+    text-align: center;
+
+}
+p#contar > input{
+    width: 150px;
+    height: 35px;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+p#contar > input:hover{
+    background-color: rgb(121, 38, 199);
+}
+p#e{
+    margin: 30px;
+    text-align: center;
+}

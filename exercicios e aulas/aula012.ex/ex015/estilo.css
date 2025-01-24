@@ -1,0 +1,74 @@
+body{
+    background: rgba(33, 33, 160, 0.788);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+input#txtano{
+    width: 50px;
+    border-radius: 4px;
+    border-color: black;
+    margin: 3px;
+    display: inline;
+    padding: 5px;
+}
+p#idade{
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 350px;
+    margin-left: 60px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p#sexo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(151, 109, 190, 0.664);
+    width: 350px;
+    height: 30px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+input#verificar{
+    color: violet;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+input#verificar:hover{
+    color: white;
+    background-color: rgb(236, 153, 236);
+    transition: 0.2s;
+}
+p#verificar{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 200px ;
+}

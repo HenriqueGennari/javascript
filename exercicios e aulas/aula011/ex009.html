@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suadação</title>
+
+    <style>
+        body{
+            font: normal 15pt Arial;
+        }
+        input{
+            margin: 10px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Suadação</h1>
+    <h2>Por favor, informe o país em que reside.</h2>
+    <input type="text" name="" id="txt1">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar()
+        {
+            var txtp = window.document.getElementById('txt1')
+            var pais = String(txtp.value)
+            var res = window.document.getElementById('res')
+            
+            if (pais == 'Brasil')
+            {
+            res.innerHTML = (`Voce é <strong>BRAZUCA!</strong>`)
+            }
+            else{
+                res.innerHTML = (`Você é <strong>estrangeiro</strong>!`) 
+            }
+            res.innerHTML += (`<p>Seja bem vindo ao Brasil!</p>`)
+        } 
+    </script>
+</body>
+</html>
