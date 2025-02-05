@@ -16,6 +16,7 @@ function contar(){
 
     }else{
         res.innerHTML = `<p id="e">Contando de ${inicio} até ${fim} temos: <br></p>`
+
         if (passo <= 0){
             window.alert('Passo inválido, tratando passo como igual a 1.')
             passo = 1
@@ -32,6 +33,7 @@ function contar(){
             }
         }
         res.innerHTML += `\u{1F3C1}`
+
     }   
     
 }
